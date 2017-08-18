@@ -23,6 +23,8 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus">
 #app
 	display: flex
+	width: 80%
+	margin: 0 auto
 	.slideBar
 		flex: 0 0 180px
 	.main

@@ -11,7 +11,7 @@
     </div>
       <el-menu :router="routerVal" :default-active="activeUrl" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose">
         <el-menu-item index="/convenience">
-        	<i class="el-icon-setting"></i>
+        	<i class="el-icon-message"></i>
         	便捷工作
         </el-menu-item>
         <el-submenu index="/photo">
@@ -26,7 +26,7 @@
           </el-menu-item-group>
         </el-submenu>
         <el-menu-item index="/news">
-        	<i class="el-icon-document"></i>
+        	<i class="el-icon-message"></i>
         	新闻管理
         </el-menu-item>
         <el-submenu index="/students-information">
@@ -55,7 +55,7 @@
             <el-menu-item index="/chemicals-place-on-file">处理列表</el-menu-item>
           </el-menu-item-group>
         </el-submenu>
-        <el-menu-item index="/map"><i class="el-icon-setting"></i>校园地图</el-menu-item>
+        <el-menu-item index="/map"><i class="el-icon-message"></i>校园地图</el-menu-item>
       </el-menu>
     </el-col>
     </el-col>

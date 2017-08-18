@@ -8,20 +8,18 @@
   		<div class="accountName">靳东</div>
   		<div class="dropDown">
   			<el-row class="block-col-2">
-				  <el-col :span="12">
-				    <el-dropdown>
-				      <span class="el-dropdown-link">
-				        <i class="el-icon-caret-bottom el-icon--right"></i>
-				      </span>
-				      <el-dropdown-menu slot="dropdown">
-				        <el-dropdown-item>黄金糕</el-dropdown-item>
-				        <el-dropdown-item>狮子头</el-dropdown-item>
-				        <el-dropdown-item>螺蛳粉</el-dropdown-item>
-				        <el-dropdown-item>双皮奶</el-dropdown-item>
-				        <el-dropdown-item>蚵仔煎</el-dropdown-item>
-				      </el-dropdown-menu>
-				    </el-dropdown>
-				  </el-col>
+				  <el-dropdown trigger="click">
+				    <span class="el-dropdown-link">
+				      <i class="el-icon-caret-bottom el-icon--right"></i>
+				    </span>
+				    <el-dropdown-menu slot="dropdown" style="position: absolute; top: 65px; width: 240px;height: 140px">
+				      <el-dropdown-item>黄金糕</el-dropdown-item>
+				      <el-dropdown-item>狮子头</el-dropdown-item>
+		          <el-dropdown-item>螺蛳粉</el-dropdown-item>
+		          <el-dropdown-item>双皮奶</el-dropdown-item>
+			        <el-dropdown-item>蚵仔煎</el-dropdown-item>
+			      </el-dropdown-menu>
+				  </el-dropdown>
 				</el-row>
   		</div>
   	</div>
@@ -60,5 +58,11 @@ export default {
 				font-size: 14px
 				letter-spacing: 1px
 				line-height: 47px
+				vertical-align: top
+			.dropDown
+				width: 20px
+				display: inline-block
+				margin-top: 11px
+				height: 47px
 				vertical-align: top
 </style>
